@@ -1,1 +1,1 @@
-export { drawRedRect } from './drawRedRect';
+export { createRenderer } from './renderer/index';

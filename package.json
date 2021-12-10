@@ -7,6 +7,7 @@
     "lint": "eslint --fix .",
     "test": "jest --coverage",
     "build": "rimraf -rf ./dis ./lib ./esm && rollup --config",
+    "build:esm": "npx babel src --out-dir esm",
     "prepare": "husky install",
     "ci": "run-s lint test build"
   },
